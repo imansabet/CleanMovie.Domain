@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMovie.Domain", "CleanM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMovie.Application", "CleanMovie.Application\CleanMovie.Application.csproj", "{9726787D-71B1-4583-85FB-2C2C8A5FDCE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanMovie.Infrastructure", "CleanMovie.Infrastructure\CleanMovie.Infrastructure.csproj", "{9FFBAE5A-E8D2-4865-AFEB-1FFB91164AC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9726787D-71B1-4583-85FB-2C2C8A5FDCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9726787D-71B1-4583-85FB-2C2C8A5FDCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9726787D-71B1-4583-85FB-2C2C8A5FDCE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFBAE5A-E8D2-4865-AFEB-1FFB91164AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFBAE5A-E8D2-4865-AFEB-1FFB91164AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFBAE5A-E8D2-4865-AFEB-1FFB91164AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFBAE5A-E8D2-4865-AFEB-1FFB91164AC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
