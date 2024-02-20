@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanMovie.Application
 {
-    internal class MovieService : IMovieService
+    public class MovieService : IMovieService
     {
         private readonly IMovieRepository _movieRepository;
 
