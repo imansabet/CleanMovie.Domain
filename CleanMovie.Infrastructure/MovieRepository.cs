@@ -10,20 +10,23 @@ namespace CleanMovie.Infrastructure
 {
     public class MovieRepository : IMovieRepository
     {
-        public static List<Movie> movies = new List<Movie>() 
-        {
-            new Movie {Id = 1 , Name = "iman" , Cost = 20},
-            new Movie {Id = 2 , Name = "Batman " , Cost = 30},
-        };
+       
+        private readonly MovieDbContext _db;
 
+        public MovieRepository(MovieDbContext db)
+        {
+            _db = db;
+        }
         public Movie CreateMovie(Movie movie)
         {
-            throw new NotImplementedException();
+            _db.Movies.Add(movie);
+            _db.SaveChanges();
+            return movie;
         }
 
         public List<Movie> GetAllMovies()
         {
-            return movies;
+            return _db.Movies.ToList( );
         }
     }
 }
