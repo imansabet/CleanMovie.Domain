@@ -15,6 +15,12 @@ namespace CleanMovie.Infrastructure
             new Movie {Id = 1 , Name = "iman" , Cost = 20},
             new Movie {Id = 2 , Name = "Batman " , Cost = 30},
         };
+
+        public Movie CreateMovie(Movie movie)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Movie> GetAllMovies()
         {
             return movies;
